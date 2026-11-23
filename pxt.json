@@ -1,0 +1,31 @@
+{
+    "name": "arcade-cabinet",
+    "version": "0.1.0",
+    "description": "Start screen, pause menu, high scores and launcher protocol for arcade cabinet games.",
+    "license": "MIT",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "README.md",
+        "src/launcher.ts",
+        "src/scores.ts",
+        "src/overlay.ts",
+        "src/draw.ts",
+        "src/titlescreen.ts",
+        "src/pausescreen.ts",
+        "src/gameoverscreens.ts",
+        "src/cabinet.ts"
+    ],
+    "testFiles": [
+        "demo.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.1.28"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}

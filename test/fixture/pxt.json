@@ -1,0 +1,14 @@
+{
+    "name": "cabinet-fixture",
+    "dependencies": {
+        "device": "*",
+        "arcade-cabinet": "file:../.."
+    },
+    "files": [
+        "main.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}

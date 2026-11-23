@@ -1,0 +1,6 @@
+{
+    "targetWebsite": "https://arcade.makecode.com/",
+    "links": {
+        "arcade-cabinet": "../.."
+    }
+}
